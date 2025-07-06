@@ -1,0 +1,36 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "gopls": {
+        "ui.semanticTokens": true,
+        "ui.completion.experimentalPostfixCompletions": true
+    },
+    "terminal.integrated.profiles.osx": {
+        "tmux-shell": {
+            "path": "tmux",
+            "args": [
+                "new-session",
+                "-A",
+                "-s",
+                "vscode:${workspaceFolderBasename}"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "tmux-shell",
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
