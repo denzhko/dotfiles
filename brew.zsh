@@ -37,3 +37,4 @@ brew install rg
 brew install tmux
 brew install tree
 brew install zsh-completions
+brew install kcat
