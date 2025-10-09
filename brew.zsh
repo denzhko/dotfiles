@@ -9,9 +9,10 @@ brew install --cask keepassxc
 brew install --cask obsidian
 brew install --cask telegram
 brew install --cask vscodium
+brew install --cask clickhouse
 
 # LLM
-brew install  ollama
+brew install ollama
 
 # Docker
 brew install lima
@@ -38,3 +39,4 @@ brew install tmux
 brew install tree
 brew install zsh-completions
 brew install kcat
+brew install trash
