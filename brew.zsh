@@ -40,3 +40,4 @@ brew install tree
 brew install zsh-completions
 brew install kcat
 brew install trash
+brew install watch
