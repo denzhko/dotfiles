@@ -1,0 +1,2 @@
+# Activates reverse search in pql (https://dba.stackexchange.com/a/100609)
+bind "^R" em-inc-search-prev
