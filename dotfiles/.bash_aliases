@@ -1,5 +1,3 @@
-#!/usr/bin/env zsh
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -18,7 +16,5 @@ alias gst="git status"
 alias gsw="git switch"
 alias gsc="git switch --create"
 
-# Some private setup
-if [ -e ~/.zsh_aliases.private ]; then
-	source ~/.zsh_aliases.private
-fi
+# Private
+[ -f ~/.bash_aliases.private ] && source ~/.bash_aliases.private

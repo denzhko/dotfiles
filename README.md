@@ -1,16 +1,19 @@
-# Denzhko's Dotfiles
+# Dotfiles
 
-Minimal and personal Zsh setup with Homebrew and useful CLI tools.
+Minimal personal dotfiles for macOS and Linux. Managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
-## 📦 Installation
+## Structure
 
-```zsh
-# Copy dotfiles
-zsh bootstrap.zsh
+```
+dotfiles/     Shell config files — symlinked to ~/
+guiconfigs/   GUI app configs applied manually
+packages/     Package installation scripts per platform
+```
 
-# Install Homebrew packages
-zsh brew.zsh
+## Quick Start
 
-# (Optional) Install NVM
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```sh
+git clone git@github.com:denzhko/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+stow dotfiles
 ```
