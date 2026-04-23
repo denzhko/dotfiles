@@ -17,3 +17,8 @@ git clone git@github.com:denzhko/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow dotfiles
 ```
+
+## References
+
+- [Guide to dotfiles on GitHub](https://dotfiles.github.io/)
+- [Stow to manage dotfiles](https://youtu.be/y6XCebnB9gs)
